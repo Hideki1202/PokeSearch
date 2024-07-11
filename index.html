@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokesearch</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="up-bar"> 
+        <h2 id="title-up-bar">PokeSearch</h2>
+    </div>
+    <div id="all-div">
+        <form>
+            <h1 id="title-form">Confira as informações de qualquer pokémon!</h1>
+            <p id="input-p">
+                <input type="text" id="inPokemonName" placeholder="ex:Venusaur">
+                <input type="submit" value="Confira!" id="btn-submit">
+            </p>
+        
+        </form>
+        <div id="error"> </div>
+        <container id="infos" class="hide">
+            <div id="img-text" class="hide">
+                <img src="" alt="Imagem Pokemon" class="hide">
+                <div id="description" class="hide">
+                    <div id="name-div" class="hide">
+                        <p >Nome:
+                            <span id="out-name-value"></span>
+                        </p>
+                    </div>
+                    <div id="id-div" class="hide">
+                        <p>ID:
+                            <span id="out-id-value" ></span>
+                        </p>
+                    </div>
+                    <div id="types-div" class="hide">
+                        Tipo1: <span id="out-type1-value"></span> Tipo2: <span id="out-type2-value"></span>
+                    </div>
+                    <div id="weight-div" class="hide">
+                        <p >Peso:
+                            <span id="out-weight-value"></span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </container>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
