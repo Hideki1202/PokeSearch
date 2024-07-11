@@ -1,0 +1,111 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+}
+body{
+    
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+#all-div{
+
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+     
+    background-color: rgb(199, 199, 199);
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+}
+#title-up-bar{
+    display: flex;
+    height: 45px;
+    align-items: center;
+    background-color: red;
+    color: white;
+    font-size: 35px;
+    padding: 10px;
+    padding-left: 45px;
+}
+form{
+    display: flex;
+    
+    flex-direction: column;
+    width: 800px;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+
+}
+
+#infos{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+}
+
+#inPokemonName{
+    width: 350px;
+    height: 30px;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 4px;
+}
+#btn-submit{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    background-color: red;
+
+}
+#input-p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#infos{
+    display: flex;
+    flex-direction: column;
+    
+}
+#img-text{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+
+}
+img{
+    width: 300px;
+}
+#description{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    font-size: 20px;
+}
+span{
+    
+    font-weight: lighter;
+
+    color: rgb(0, 0, 0);
+}
+
+#types-div {
+    
+    flex-direction: row;
+    justify-content: space-between;
+    width: 250px;
+}
+.hide{
+    display: none;
+    
+}
+
+#error{
+    padding: 10px;
+    font-size: 25px;
+}
